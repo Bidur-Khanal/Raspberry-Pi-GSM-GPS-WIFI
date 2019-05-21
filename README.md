@@ -10,11 +10,11 @@
 
 ***
 
-![alt text][https://i.stack.imgur.com/yHddo.png "Raspberry Pi Zero"]
-![alt text][http://www.icstation.com/images/big/products/11470_4_2239.JPG "A7 AI Thinker"]
+![alt text](https://i.stack.imgur.com/yHddo.png "Raspberry Pi Zero")
+![alt text](http://www.icstation.com/images/big/products/11470_4_2239.JPG "A7 AI Thinker")
 
 + First, Connect **A7 AI Thinker UART** to **Raspberry Pi Zero UART** *(Tx/Rx = Rx/Tx)*.
-+ Run, ```gsm2.py```. The programs polls for the matching SMS. If matches, connects the *Raspberry Pi Zero* to 
++ Run, ```gsm2.py```. The program polls for the matching SMS. If a match is found, connects the **Raspberry Pi Zero** to that WIFI.
 
-* Note: Change string format in *gsm2.py* to modify sms format.
+* Note: Change string format in ```gsm2.py``` to modify sms format.
 
