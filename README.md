@@ -1,4 +1,4 @@
-##### This project contains codes to perform following operations in raspberry PI zero/3 Model B interfacing with A7 AI Thinker GSM/GPRS module :
+##### This repo contains codes to perform following operations in raspberry PI zero/3 Model B interfacing with A7 AI Thinker GSM/GPRS module :
 
 1. Sent a message using A7 AI Thinker GSM/GPRS module.
 
@@ -9,8 +9,9 @@
 4. Send the DATA to a network over TCP using A7 AI Thinker GSM/GPRS module.
 
 ***
-![Raspberry Pi Zero][https://i.stack.imgur.com/yHddo.png]
-![A7 AI Thinker][http://www.icstation.com/images/big/products/11470_4_2239.JPG]
+
+![alt text][https://i.stack.imgur.com/yHddo.png "Raspberry Pi Zero"]
+![alt text][http://www.icstation.com/images/big/products/11470_4_2239.JPG "A7 AI Thinker"]
 
 + First, Connect **A7 AI Thinker UART** to **Raspberry Pi Zero UART** *(Tx/Rx = Rx/Tx)*.
 + Run, ```gsm2.py```. The programs polls for the matching SMS. If matches, connects the *Raspberry Pi Zero* to 
