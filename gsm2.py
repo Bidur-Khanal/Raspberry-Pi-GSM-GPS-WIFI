@@ -189,14 +189,14 @@ if __name__ == '__main__':
     #send_message( "+9779849811***", "Hello")
     #send_data()
     ONOFF_AGPS(1)
-    while 1:
-     y= read_me()
-     print y
+	
+    '''while 1:
+     read_string= read_me()
+     print read_string'''
      
 
     #######continuosly read sms in a poll for wifi SSID and Password##########
-    '''while 1:
-     print "yes"
+    while 1:
      read= read_me()   
      #read=read_stored_message()
      print read
@@ -211,7 +211,7 @@ if __name__ == '__main__':
           ssid= read_ssid[1]
           psk= read_psk[1]
           psk=psk[:-1]
-          changewifi.connect(ssid,psk)'''
+          changewifi.connect(ssid,psk)
                 
                
     
