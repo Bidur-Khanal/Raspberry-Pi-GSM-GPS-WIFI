@@ -15,7 +15,7 @@
 ***
 
 + First, Connect **A7 AI Thinker UART** to **Raspberry Pi UART** *(Tx/Rx = Rx/Tx)*.
-+ Run, ```gsm2.py```. The program polls for the matching SMS. If a match is found, connects the **Raspberry Pi ** to that WIFI.
++ Run, ```gsm2.py```. The program polls for the matching SMS. If a match is found, connects the **Raspberry Pi** to that WIFI.
 
 *Note: Change string format in ```gsm2.py``` to modify sms format.*
 
