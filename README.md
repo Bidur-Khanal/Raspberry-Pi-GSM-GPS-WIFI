@@ -10,12 +10,12 @@
 
 ***
 
-<img src="https://i.stack.imgur.com/yHddo.png" width="400" height="400"> <img src="http://www.icstation.com/images/big/products/11470_4_2239.JPG" width="400" height="400">
+<img src="https://i.stack.imgur.com/yHddo.png" width="400" height="300"> <img src="http://www.icstation.com/images/big/products/11470_4_2239.JPG" width="300" height="300">
 
 ***
 
 + First, Connect **A7 AI Thinker UART** to **Raspberry Pi UART** *(Tx/Rx = Rx/Tx)*.
 + Run, ```gsm2.py```. The program polls for the matching SMS. If a match is found, connects the **Raspberry Pi ** to that WIFI.
 
-* Note: Change string format in ```gsm2.py``` to modify sms format.
+*Note: Change string format in ```gsm2.py``` to modify sms format.*
 
