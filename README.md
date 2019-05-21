@@ -1,4 +1,4 @@
-#### This repo contains codes to perform following operations in raspberry PI zero/3 Model B interfacing with A7 AI Thinker GSM/GPRS module : ####
+#### This repo contains codes to perform following operations in raspberry PI zero/3 Model B interfaced with A7 AI Thinker GSM/GPRS module : ####
 
 1. Sent a message using A7 AI Thinker GSM/GPRS module.
 
